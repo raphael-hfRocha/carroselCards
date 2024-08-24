@@ -1,0 +1,24 @@
+.carousel {
+    display: flex;
+    flex-wrap: nowrap; /* Impede a quebra de linha */
+    align-items: center;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px;
+    max-width: 100%; /* Ajusta a largura máxima conforme necessário */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    background: rgb(0, 0, 0);
+}
+
+
+button {
+    background-color: #363636;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
